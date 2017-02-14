@@ -1,0 +1,17 @@
+#gridContainer, #personDiv{
+    height: 100%;
+    width: 100%;
+}
+.gridx{
+    height: 320px !important;
+}
+.gridxRowHeaderRow{
+    height: 21px !important;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
