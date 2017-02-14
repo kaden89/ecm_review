@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<organizations>
+    <organization >
+        <name>OOO Company</name>
+        <shortName>Company</shortName>
+        <manager >
+			<firstName>Ivan</firstName>
+			<patronymic>Ivanovich</patronymic>
+			<position>engineer</position>
+			<surname>Ivanov</surname>
+		</manager>
+        <contactsTelephones>+7 777 777</contactsTelephones>
+    </organization>
+	<organization>
+        <name>OOO Sales</name>
+        <shortName>Sales</shortName>
+         <manager >
+			<firstName>Nikolay</firstName>
+			<patronymic>Nikolaevich</patronymic>
+			<position>security</position>
+			<surname>Nikolaev</surname>
+		</manager>
+        <contactsTelephones>+7 888 888</contactsTelephones>
+    </organization>
+	<organization >
+        <name>OOO Trade</name>
+        <shortName>Trade</shortName>
+        <manager>
+			<firstName>Petr</firstName>
+			<patronymic>Petrovich</patronymic>
+			<position>manager</position>
+			<surname>Petrov</surname>
+		</manager>
+        <contactsTelephones>+7 999 999</contactsTelephones>
+    </organization>
+  
+</organizations>
