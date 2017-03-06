@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons>
+	<person>
+			<firstname>Ivan</firstname>
+			<patronymic>Ivanovich</patronymic>
+			<positionId>1</positionId>
+			<surname>Ivanov</surname>
+			<birthday>2017-01-01</birthday>
+	</person>
+	<person>
+			<firstname>Petr</firstname>
+			<patronymic>Petrovich</patronymic>
+			<positionId>1</positionId>
+			<surname>Petrov</surname>
+			<birthday>2017-01-01</birthday>
+	</person>
+	<person>
+
+			<firstname>Ivan</firstname>
+			<patronymic>Vasilievich</patronymic>
+			<positionId>1</positionId>
+			<surname>Petrov</surname>
+			<birthday>2017-01-01</birthday>
+	</person>
+	<person>
+
+			<firstname>Nikolay</firstname>
+			<patronymic>Nikolaevich</patronymic>
+			<positionId>1</positionId>
+			<surname>Nikolaev</surname>
+			<birthday>2017-01-01</birthday>
+	</person>
+	<person>
+
+			<firstname>Vasya</firstname>
+			<patronymic>Vasilievich</patronymic>
+			<positionId>1</positionId>
+			<surname>Vasiliev</surname>
+			<birthday>2017-01-01</birthday>
+	</person>
+	<person>
+
+			<firstname>Petr</firstname>
+			<patronymic>Vasilievich</patronymic>
+			<positionId>1</positionId>
+			<surname>Vasiliev</surname>
+			<birthday>2017-01-01</birthday>
+	</person>
+</persons>
+
+

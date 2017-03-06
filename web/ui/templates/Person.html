@@ -1,0 +1,85 @@
+<div data-dojo-type="dijit/layout/BorderContainer" data-dojo-props="design: 'headline'"
+     style="width: 100%; height:90%;">
+    <script type="dojo/require">at: "dojox/mvc/at"</script>
+    <div data-dojo-type="dijit/Toolbar" data-dojo-attach-point="toolbar"></div>
+    <div id="personDiv">
+        <div data-dojo-type="dijit/layout/BorderContainer" style="height: 40%">
+            <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'left'" style="width: 60%">
+                <div data-dojo-type="dijit/layout/ContentPane" style="height: 40%">
+                </div>
+                <div data-dojo-type="dijit/layout/ContentPane"
+                     data-dojo-props="region:'bottom'"
+                     style="text-align: center; font-size: large">
+                    <span data-dojo-type="dojox/mvc/Output" data-dojo-props="value: at(this.model, 'firstname')"></span>
+                    <span data-dojo-type="dojox/mvc/Output" data-dojo-props="value: at(this.model, 'surname')"></span>
+                    <span data-dojo-type="dojox/mvc/Output"
+                          data-dojo-props="value: at(this.model, 'patronymic')"></span>
+                </div>
+            </div>
+            <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'right'" style="width: 40%">
+                <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center'">
+                    <img src="" class="${baseClass}Image" data-dojo-props="region:'center'"
+                         data-dojo-attach-point="avatar" style="height: 100%"/>
+                </div>
+            </div>
+        </div>
+        <div data-dojo-type="dijit/layout/BorderContainer" style="height: 50%">
+            <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center'">
+
+                <div data-dojo-type="dijit/form/Form"
+                     data-dojo-attach-point="form"
+                     data-dojo-props="region:'right'"
+                     style="border: 0px">
+
+                    <div data-dojo-type="dojox/layout/TableContainer" data-dojo-props="cols:1">
+
+                        <div title="ID:" data-dojo-type="dojox/mvc/Output" data-dojo-attach-point="entityId"
+                             data-dojo-props="value: at(this.model, 'id')"></div>
+
+                        <div title="First name:"
+                             type="text"
+                             name="firstname"
+                             required="true"
+                             data-dojo-type="dijit/form/ValidationTextBox"
+                             data-dojo-props="value: at(this.model, 'firstname')"></div>
+
+                        <div title="Surname"
+                             type="text"
+                             name="surname"
+                             required="true"
+                             data-dojo-type="dijit/form/ValidationTextBox"
+                             data-dojo-props="value: at(this.model, 'surname')"></div>
+
+
+                        <div title="Patronymic"
+                             type="text"
+                             name="patronymic"
+                             required="true"
+                             data-dojo-type="dijit/form/ValidationTextBox"
+                             data-dojo-props="value: at(this.model, 'patronymic')"></div>
+
+                        <div title="Date of birth:"
+                             type="text"
+                             name="birthday"
+                             required="true"
+                             data-dojo-type="dijit/form/DateTextBox"
+                             data-dojo-props="value: at(this.model, 'birthday')"></div>
+
+                        <div title="Position:"
+                             required="true"
+                             name="positionId"
+                             data-dojo-type="dijit/form/FilteringSelect"
+                             data-dojo-attach-point="position"
+                             data-dojo-props="value: at(this.model, 'positionId'), labelAttr: 'post', searchAttr: 'post'"></div>
+                    </div>
+                    <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center'"></div>
+                </div>
+                <div data-dojo-type="dojox/form/Uploader"
+                     data-dojo-attach-point="uploader"></div>
+                <div data-dojo-type="dojox/form/uploader/FileList"
+                     data-dojo-attach-point="filelist"></div>
+                <div data-dojo-type="dijit/form/Button" data-dojo-attach-point="button"></div>
+            </div>
+        </div>
+    </div>
+</div>

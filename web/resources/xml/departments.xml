@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<departments>
+    <department>
+        <name>Programmers</name>
+        <shortName>Programmers</shortName>
+        <manager >
+            <firstName>Nikolay</firstName>
+            <patronymic>Nikolaevich</patronymic>
+            <position>security</position>
+            <surname>Nikolaev</surname>
+        </manager>
+        <contactsTelephones>+7 777 777</contactsTelephones>
+    </department>
+    <department >
+        <name>Administration</name>
+        <shortName>Administration</shortName>
+        <manager >
+            <firstName>Vasya</firstName>
+            <patronymic>Vasilievich</patronymic>
+            <position>tester</position>
+            <surname>Vasiliev</surname>
+        </manager>
+        <contactsTelephones>+7 888 888</contactsTelephones>
+    </department>
+    <department >
+        <name>Testers</name>
+        <shortName>Testers</shortName>
+        <manager >
+            <firstName>Petr</firstName>
+            <patronymic>Vasilievich</patronymic>
+            <position>cleaner</position>
+            <surname>Vasiliev</surname>
+        </manager>
+        <contactsTelephones>+7 999 999</contactsTelephones>
+    </department>
+
+</departments>
